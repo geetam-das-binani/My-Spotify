@@ -93,7 +93,7 @@ body {
 .songName {
     font-size: .8rem;
     font-weight: bolder;
-    
+
 
 }
 
@@ -107,14 +107,11 @@ body {
     margin: .5rem;
     font-size: 1rem;
 }
-.songListPlay i{
+
+.songListPlay i {
     cursor: pointer;
-   
+
 }
-
-
-
-
 
 /* Bottom Section  */
 
@@ -164,9 +161,9 @@ body {
     top: 50%;
     left: 5%;
     font-family: Georgia, 'Times New Roman', Times, serif;
-   color:orchid;
-   font-style: italic;
-   
+    color: orchid;
+    font-style: italic;
+
 }
 
 
@@ -178,6 +175,10 @@ body {
         width: 100%;
     }
 
+    h4 {
+        margin-bottom: .5rem;
+    }
+
     #top_section,
     #bottom_section {
         margin: .5rem;
@@ -186,13 +187,6 @@ body {
     .Top_section_container {
         width: 100%;
         height: 70vh;
-
-
-
-    }
-
-    h4 {
-        margin-bottom: .5rem;
     }
 
     .songItem {

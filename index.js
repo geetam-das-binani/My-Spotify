@@ -42,7 +42,7 @@ myProgressBar.addEventListener('input', () => {
     // when myProgressBar will be changed 
     audioelement.currentTime = (myProgressBar.value * audioelement.duration) / 100
     myProgressBar.value = audioelement.currentTime
-    console.log(audioelement.currentTime)
+   
 
 
 })
@@ -72,7 +72,7 @@ Array.from(SongItemPlay).forEach((element) => {
             masterPlay.classList.add('fa-pause-circle');
             bottom_song_Name.innerText = songs[SongIndex].Songname;
             gif.style.opacity = 1;
-            // timeStamp[SongIndex].innerText=myProgressBar.value;
+          
             }
         else {
             e.target.classList.add('fa-play-circle');
