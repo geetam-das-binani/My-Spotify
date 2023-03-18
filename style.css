@@ -15,7 +15,7 @@ h4 {
 body {
     background: rgb(217, 217, 174);
     font-family: Arial, Helvetica, sans-serif;
-    overflow: hidden;
+
 }
 
 /* Navbar Section */
@@ -120,7 +120,7 @@ body {
     background: black;
     border-radius: .4rem;
     width: 70%;
-    height: 13vh;
+    min-height: 14vh;
     color: white;
     margin: .5rem auto;
     display: flex;
